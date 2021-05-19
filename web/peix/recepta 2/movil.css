@@ -1,0 +1,28 @@
+@media screen and (max-width: 423px){
+  body {
+    background-color: white;
+    margin: 0;
+  }
+}
+
+img {
+  width: 80%;
+}
+
+P {
+  font-size: 20px;
+}
+
+.div1 {
+  margin: 10px;
+}
+
+.texto1 {
+  margin-left: 50px;
+  width: 300px;
+}
+
+h1 {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
