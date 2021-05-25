@@ -1,0 +1,521 @@
+@media screen and (max-width: 423px){
+body{
+  margin: 0;
+  padding: 0;
+}
+
+#video {
+  width: 270px;
+  margin-top: -20px;
+  margin-left: 100px;
+}
+
+
+#quisom{
+  width: 424px;
+  height: 480px;
+  background-color: #white;
+  color: #666;
+}
+
+h1, h3, form, input {
+  font-family: 'Righteous', cursive;
+}
+
+input {
+  display: block;
+  position: relative;
+
+}
+
+#menuhamlogo {
+  margin-top: 0px;
+  margin-right: 50px;
+  height: 30px;
+  padding: 0;
+  opacity: 1;
+}
+
+ #desplegable ul {
+  display: none;
+  visibility: none;
+}
+
+img{
+  margin-top: 50px;
+  padding: 25px;
+}
+
+div{
+  padding: 0 0 0 0;
+  background-repeat: no-repeat;
+  background-position: 400px;
+}
+
+p{
+  font-size: 18px;
+  line-height: px;
+  margin-left: 25px;
+  width: 350px;
+}
+
+h1{
+  margin-left: 10;
+  width: 350px;
+  margin-top: 0;
+  line-height: 50px;
+}
+
+ul{
+  font-size: 10px;
+  margin-right: -10px;
+  text-align: right;
+  list-style:none;
+  padding: 10px;
+}
+
+
+li{
+  display: inline;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#titol {
+  font-size: 40px;
+}
+
+#contenedor {
+  margin-top: -10px;
+  width: 250px;
+}
+
+#menu{
+  margin-left: 0px;
+  height: 100px;
+  background-position: 25px;
+  background-image: url(img/logowebfinal.png);
+  background-size: 90px;
+
+}
+
+#presentacio{
+  margin: 0;
+  width: 424px;
+  height: 280px;
+  background-color: #6ad2f5;
+  color: #666;
+}
+
+
+
+
+#app{
+  text-align:left;
+  width: 424px;
+  height: 250px;
+  background-color: #333333;
+  color: #CCC;
+}
+
+#contenedor{
+  margin-top: 60px;
+  background-color: grey;
+  width:100px;
+  opacity:100%;
+
+}
+
+
+#presentacio * {
+
+}
+
+.nav li a {
+  background-color: #0050A1;
+  color: #C2DEFA;
+  text-decoration: none;
+  padding: 10px 30px 10px 30px;
+  display: block;
+  width: 100%;
+}
+    .nav li a:hover {
+      background-color: #006FDF;
+    }
+
+.nav li ul {
+  display: none;
+  min-width: 50px;
+}
+
+.nav > li {
+  float: left;
+}
+
+.nav li:hover > ul {
+  display:block;
+}
+
+.nav li ul li {
+  position: relative;
+}
+
+.nav li ul li ul {
+  right: 50px;
+  top:0px;
+}
+
+
+
+
+.container {
+  width: 400px;
+  margin: 0;
+  padding: 0;
+  height: 40px;
+}
+
+ul, li  {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul.slider {
+  margin-top: 0px;
+  position: relative;
+  width: 90%;
+  height: 40px;
+}
+
+ul.slider li {
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  width: inherit;
+  height: inherit;
+  background-color: #;
+  transition: opacity .5s;
+}
+
+ul.slider li img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+}
+
+ul.slider li:first-child {
+  opacity: 1;
+}
+
+ul.slider li:target {
+  opacity: 1;
+}
+
+.menuslide{
+  text-align: center;
+  margin: 50px;
+}
+
+.menuslide li{
+  margin-top: 10px;
+  margin-left: 0px;
+  display: inline-block;
+  text-align: center;
+}
+
+.menuslide li a{
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  background-color: grey;
+  margin-top: 10px;
+  padding: 3px;
+  width: 8px;
+  height: 8px;
+  font-size: 10px;
+  border-radius: 100%;
+}
+
+
+
+
+.respmenu a {
+  color: inherit;
+  text-decoration: none;
+  display: block;
+  padding: 10px 10px;
+  border-bottom: 2px solid #456789;
+  max-width: 100px;
+  background: #234567;
+  font-variant: small-caps;
+  text-shadow: 1px 1px black;
+}
+
+
+.respmenu input[type="checkbox"], .respmenu .fa-bars, .respmenu .fa-times {
+  position: absolute;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  right: 0;
+  top: 0;
+  width: 10px;
+  height: 20px;
+}
+
+.respmenu .fa-bars, .respmenu .fa-times {
+  font-size: 10px;
+  pointer-events: none;
+}
+
+.respmenu input[type="checkbox"] {
+  opacity: 0;
+  width: 90px;
+}
+
+.respmenu {
+    color: white;
+    background: #123456;
+    width: 90px;
+    height: 30px;
+    float: right;
+}
+
+.respmenu nav {
+  display: none;
+}
+
+.respmenu input:checked ~ nav {
+  display: block;
+}
+
+.respmenu input:checked ~ .fa-bars {
+  display: none;
+}
+
+.respmenu input:not(:checked) ~ .fa-times {
+  display: none;
+}
+
+#menuham ul{
+  display: block;
+  visibility: visible;
+}
+
+
+
+
+@keyframes tonext {
+  75% {
+    left: 0;
+  }
+  95% {
+    left: 100%;
+  }
+  98% {
+    left: 100%;
+  }
+  99% {
+    left: 0;
+  }
+}
+
+@keyframes tostart {
+  75% {
+    left: 0;
+  }
+  95% {
+    left: -300%;
+  }
+  98% {
+    left: -300%;
+  }
+  99% {
+    left: 0;
+  }
+}
+
+@keyframes snap {
+  96% {
+    scroll-snap-align: center;
+  }
+  97% {
+    scroll-snap-align: none;
+  }
+  99% {
+    scroll-snap-align: none;
+  }
+  100% {
+    scroll-snap-align: center;
+  }
+}
+
+
+* {
+  box-sizing: border-box;
+  scrollbar-color: transparent transparent; /* thumb and track color */
+  scrollbar-width: 0px;
+}
+
+*::-webkit-scrollbar {
+  width: 0;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: transparent;
+  border: none;
+}
+
+* {
+  -ms-overflow-style: none;
+}
+
+ol, li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height:63%;
+}
+
+.carousel img {
+  margin-top: -50px;
+  width: 65%;
+  margin-left: 20%;
+}
+
+.carousel {
+  position: relative;
+  padding-top: 75%;
+  filter: drop-shadow(0 0 10px );
+  perspective: 100px;
+}
+
+.carousel__viewport {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  overflow-x: scroll;
+  counter-reset: item;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+}
+
+.carousel__slide {
+  position: relative;
+  flex: 0 0 100%;
+  width: 100%;
+  counter-increment: item;
+}
+
+.carousel__slide:before {
+  content: counter(item);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%,-40%,70px);
+  color: #fff;
+  font-size: 2em;
+}
+
+.carousel__snapper {
+  position: absolute;
+  width: 100%;
+  scroll-snap-align: center;
+}
+
+@media (hover: hover) {
+  .carousel__snapper {
+    animation-name: tonext, snap;
+    animation-timing-function: ease;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
+
+  .carousel__slide:last-child .carousel__snapper {
+    animation-name: tostart, snap;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .carousel__snapper {
+    animation-name: none;
+  }
+}
+
+.carousel:hover .carousel__snapper,
+.carousel:focus-within .carousel__snapper {
+  animation-name: none;
+}
+
+.carousel__navigation {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+}
+
+.carousel__navigation-list,
+.carousel__navigation-item {
+  display: inline-block;
+}
+
+.carousel::before,
+.carousel::after,
+.carousel__prev,
+.carousel__next {
+  position: absolute;
+  top: 0;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 20%;
+  width:3rem;
+  height:3rem;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  font-size: 0;
+  outline: 0;
+}
+
+.carousel::before,
+.carousel__prev {
+  left: -1rem;
+}
+
+.carousel::after,
+.carousel__next {
+  right: -1rem;
+}
+
+.carousel::before,
+.carousel::after {
+  content: '';
+  z-index: 1;
+  background-color: #333;
+  background-size: 1.5rem 1.5rem;
+  background-repeat: no-repeat;
+  background-position: center center;
+  color: #fff;
+  font-size: 2.5rem;
+  line-height: 4rem;
+  text-align: center;
+  pointer-events: none;
+}
+
+.carousel::before {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon points='0,50 80,100 80,0' fill='%23fff'/%3E%3C/svg%3E");
+}
+
+.carousel::after {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon points='100,50 20,100 20,0' fill='%23fff'/%3E%3C/svg%3E");
+}
