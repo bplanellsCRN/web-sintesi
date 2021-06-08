@@ -1,0 +1,24 @@
+@media screen and (min-width: 424px) {
+  body {
+    background-color: #6AD2F5;
+  }
+
+  h2{
+    font-family: 'Righteous', cursive;
+    text-align: center;
+  }
+  #caixa{
+    background-color: #FFFF;
+    height: 200px;
+    width: 400px;
+    margin: 51px;
+    border: solid 4px white;
+    float: left;
+    background-repeat: no-repeat;
+    background-size: 350px 355px;
+    margin-left: 34%;
+  }
+p{
+  font-family: 'Righteous', cursive;
+  text-align: center;
+}
