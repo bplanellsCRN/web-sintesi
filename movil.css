@@ -163,11 +163,12 @@ li{
 }
 
 .respmenu {
+  position:relative; z-index:2;
     color: white;
+    margin-left: 325px;
     background: #123456;
     width: 100px;
     height: 100px;
-    float: right;
 }
 
 .respmenu nav {
@@ -188,10 +189,11 @@ li{
 
 #menuham ul{
   margin: 0px;
-  margin-top: -30px;
   display: inline;
-  visibility: visible;
+  visibility: none;
+
 }
+
 
 
 
@@ -278,6 +280,7 @@ ol, li {
   width: 65%;
   margin-left: 20%;
 }
+
 
 .carousel {
   position: relative;
